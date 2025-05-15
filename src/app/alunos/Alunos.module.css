@@ -18,4 +18,21 @@
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
 }
 
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #fff;
+  margin: 1rem;
+  padding: 1re,;
+}
+
+.pagination{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
 

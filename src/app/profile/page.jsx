@@ -13,7 +13,7 @@ export default function Profile() {
             <Flex justify="space-between" >
                 <div className={styles.imageContainer}>
                     <Image
-                        src="/imagens/Giovanna.jpeg"
+                        src="/images/Giovanna.jpeg"
                         alt="Profile"
                         fill
                         className={styles.image}

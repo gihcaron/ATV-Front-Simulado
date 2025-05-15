@@ -86,6 +86,7 @@ export default function Alunos() {
 
         <Pagination
         current={data.current}
+      className={styles.pagination}
         pageSize={data.pageSize}
         total={data.alunos.length}
         onChange={(page, size) => {
@@ -97,7 +98,7 @@ export default function Alunos() {
 
     {data.loading ? (
         <Image
-            src="/imagens/loading.gif"
+            src="/images/loading.gif"
             alt="Loading"
             width={350}
             height={300}
@@ -114,7 +115,7 @@ export default function Alunos() {
             cover={
                 <Image 
                 alt={aluno.name_estudante}
-                src={aluno.phto ? aluno.phto : "/imagens/220.png"}
+                src={aluno.phto ? aluno.phto : "/images/220.png"}
                 width={220}
                 height={220}
                 />
