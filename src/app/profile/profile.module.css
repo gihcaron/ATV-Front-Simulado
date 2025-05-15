@@ -1,0 +1,26 @@
+.card {
+    width: 750px;
+    padding: 0 30px 0 0;
+    backdrop-filter: blur(16px);
+    background-color: rgb(248, 249, 250);
+}
+
+.imageContainer {
+    width: 350px;
+    height: 450px;
+    position: relative;
+}
+
+.image {
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.list {
+    padding: 0 0 15px 15px;
+}
+
+.listItem{
+
+    text-decoration: none;
+}

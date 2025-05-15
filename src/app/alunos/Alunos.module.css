@@ -1,0 +1,21 @@
+.cardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+
+.card{
+    background: #fff;
+    border-radius: 12px;
+    width: 220px;
+    transition: box-shadow 0.2s;
+    cursor: pointer;
+}
+
+.card:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+}
+
+
